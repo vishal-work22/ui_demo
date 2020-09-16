@@ -1,0 +1,10 @@
+<div ng-app="app">
+<div ng-controller="MainCtrl">
+      <div id="grid1" ui-grid="gridOptions" class="grid autoHeightUIGrid"></div>
+    </div>
+</div>
+<script>
+$(document).ready(function(){
+   $(".ui-grid-spilt-header-main").css('padding-top', $(".ui-grid-header-table").height());
+ });
+</script>
